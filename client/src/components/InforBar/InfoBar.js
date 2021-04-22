@@ -6,12 +6,12 @@ const InfoBar = ({ room }) => {
   return (
     <div className="infoBar">
       <div className="leftInnerContainer">
-        <i class="circle icon onlineIcon"></i>
+        <i className="circle icon onlineIcon"></i>
         <h3>Sala: {room}</h3>
       </div>
       <div className="rightInnerContainer">
         <a href="/">
-          <i class="close icon"></i>
+          <i className="close icon"></i>
         </a>
       </div>
     </div>

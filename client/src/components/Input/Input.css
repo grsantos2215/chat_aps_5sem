@@ -1,0 +1,39 @@
+#sendMessage {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+#sendMessage .input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+#sendMessage input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+#sendMessage .sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #140035;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 50px;
+  width: 10%;
+  height: 70%;
+  cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
